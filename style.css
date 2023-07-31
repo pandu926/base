@@ -1,0 +1,84 @@
+body {
+  color: #0854ff;
+}
+
+#navbar {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar #judul h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#menubar ul {
+  display: flex;
+}
+
+#menubar ul li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 60px;
+}
+
+#menubar ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #0854ff;
+}
+
+#isi {
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+}
+
+#tulisan {
+  width: 40%;
+  font-size: 25px;
+  margin-top: 10%;
+}
+
+#gambar {
+  width: 40%;
+}
+
+#gambar img {
+  width: 500px;
+  margin-left: 150px;
+}
+
+@media only screen and (max-width: 480px) {
+  #navbar #judul h1 {
+    font-size: 20px;
+  }
+  #menubar ul {
+    display: block;
+    position: relative;
+    left: 1000px;
+  }
+  #menubar ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  #isi {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+  }
+  #tulisan {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10%;
+    text-align: justify;
+  }
+  #gambar img {
+    margin-left: 10px;
+    width: 300px;
+  }
+}
